@@ -75,7 +75,6 @@ const Projects = () => {
                 <button onClick={siguienteImagen}>
                     <i className="fa-solid fa-angles-right"></i>
                 </button>
-                <a href="https://chic-kheer-cd2dee.netlify.app/#/"></a>
             </article>
         </section>
     );

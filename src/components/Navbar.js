@@ -53,10 +53,12 @@ const Navbar = () => {
                     </li>
 
                     <div className="responsive-icon">
-                        <a href="">
+                        <a href="https://www.linkedin.com/in/antonio-sanchez-anton-11b31b196/">
                             <i className="fa-brands fa-linkedin-in"></i>
                         </a>
-                        <i className="fa-brands fa-github"></i>
+                        <a href="https://github.com/SEBASANTON">
+                            <i className="fa-brands fa-github"></i>
+                        </a>
                     </div>
                 </ul>
             </div>
