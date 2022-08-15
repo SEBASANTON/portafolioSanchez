@@ -1,0 +1,38 @@
+#contactMe{
+    margin: 3rem auto;
+}
+#contactMe>h2{
+    text-align: left;
+    margin-left: 8vw ;
+    margin-bottom: 0.5rem;
+    font-size: 30px;
+}
+
+
+.form{
+    background-color: rgba(196, 194, 194, 0.041);
+    width: 85%;
+    max-width: 400px;
+    border-radius: 2px;
+    padding: 1rem ;
+    margin: 1rem auto;
+}
+.social-networks{
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top: 1rem;
+}
+
+.social-networks>li{
+    margin:1rem;
+}
+
+.social-networks>li>i{
+    font-size: 20px;
+    font-weight: 300;
+    color: #fcfcfc;
+    margin-right: 0.4rem;
+}

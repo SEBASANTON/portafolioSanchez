@@ -1,0 +1,94 @@
+
+
+.responsive-menu{
+    display: flex;
+    justify-content: space-between ;
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    z-index: 3;
+    background-color: #1a2c44;
+    transition: 0.3s;
+}
+
+.title-responsive>img{
+    width: 120px;
+    margin: 0.6rem ;
+}
+
+/* .title-responsive>p{
+    text-align: left;
+    margin: 0.5rem;
+    margin-left: 0.7rem;
+    font-family: 'Uchen', serif;
+    font-size: 17px;
+}
+ */
+
+.icon-responsive>button{
+    font-size: 20px;
+    margin: 0.5rem 1.5rem;
+    border: transparent;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.exit-icon{
+    text-align: right;
+}
+
+.exit-icon>button{
+    font-size: 23px;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+}
+
+
+.menu{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+    padding: 1.5rem;
+    width: 100vw;
+    transition: 1s;
+    transform: translateY(-100vh);
+    overflow: auto;
+    text-align: left;
+    background: -webkit-linear-gradient(180deg, #f64a5c, #142247);
+    z-index: 3;
+
+}
+.menu.input{
+    transform: translateX(0);
+    box-shadow: 3px 4px 16px 2px rgb(153, 153, 153);
+    color: black;
+}
+
+.list-menu{
+    color: white;
+    list-style: none;
+    text-align: center;
+    font-size: 33px;
+    margin-top: 3rem;
+}
+
+.list-menu>li{
+    margin: 1.5rem auto;
+    font-family: 'Nunito', sans-serif;
+}
+.list-menu>li>a{
+    margin: 1.5rem auto;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.responsive-icon{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+

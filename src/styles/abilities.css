@@ -1,0 +1,128 @@
+#abilities>h2{
+    text-align: left;
+    margin-left: 8vw ;
+    margin-bottom: 0.5rem;
+    font-size: 30px;
+}
+
+.skills-soft{
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    max-width: 85vw;
+    margin: 1rem auto;
+    background-color: rgba(196, 194, 194, 0.041);
+    border-radius: 10px;
+}
+.skills-soft>h2{
+    margin: 0.5rem auto;
+    margin-bottom: 1rem;
+}
+
+.skills-soft>p{
+    text-align: left;
+    margin-left: 7vw;
+}
+
+.progress-bar{
+    background-color: blanchedalmond;
+    height: 15px;
+    width: 74vw;
+    margin: 0.5rem auto;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px rgb(128, 128, 128);
+}
+
+.progress-bar>.eighty{
+    background: linear-gradient(to bottom, #65949c, #165a3eea);
+    height: 15px;
+    width: 80%;
+    border-radius: 20px;
+    text-align: right;
+}
+.eighty-animate{
+    background: linear-gradient(to bottom, #8e999b, #197F5B);
+    backdrop-filter: blur(10px);
+    height: 15px;
+    width: 100%;
+    border-radius: 20px;
+    text-align: right;
+    animation: animate-shine 2.5s ease-out  infinite;
+}
+@keyframes animate-shine { 
+    0%{opacity: 1; width: 0; }
+    50%{opacity: 0.5;}
+    100%{opacity: 0.2;}
+}
+.progress-bar>.ninety{
+    background-color: #197F5B;
+    background: linear-gradient(to bottom, #65949c, #165a3eea);
+
+    height: 15px;
+    width: 90%;
+    border-radius: 20px;
+    text-align: right;
+}
+.progress-bar>.eighty-five{
+    background: linear-gradient(to bottom, #65949c, #165a3eea);
+    height: 15px;
+    width: 85%;
+    border-radius: 20px;
+    text-align: right;
+}
+
+.skills-professional{
+    padding: 1rem;
+    max-width: 85vw;
+    margin: 1rem auto;
+    background-color: rgba(196, 194, 194, 0.041);
+    border-radius: 10px;
+}
+
+.lenguages1{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0.5rem;
+}
+.lenguages1>div{
+    margin: 1rem ;
+}
+.lenguages2{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -0.7rem;
+}
+.lenguages2>div{
+    margin: 1rem ;
+}
+
+
+.html>i{
+    color: rgb(231, 101, 25);
+    font-size: 48px;
+}
+.css>i{
+    color: rgb(21, 144, 226);
+    font-size: 48px;
+
+}
+.js>i{
+    color: rgb(239, 243, 0);
+    font-size: 48px;
+}
+.react>i{
+    color: rgb(101, 204, 252);
+    font-size: 48px;
+}
+.node>i{
+    color: rgb(101, 173, 67);
+    font-size: 48px;
+}
+.git>i{
+    color: rgb(218, 65, 5);
+    font-size: 48px;
+}
+
+

@@ -1,0 +1,42 @@
+.form-container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100% ;
+}
+
+
+.form_input{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    padding: .8em 1em ;
+    outline: none;
+    border-radius: 3px;
+    background-color: #a4a2af;
+    border: 1px solid #e8e8e9be;
+}
+
+::placeholder{
+    font-family: "Font Awesome 6 Free",'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #4c4a54;
+}
+
+.form_input--message{
+    resize: none;
+    padding: 1em;
+    margin-bottom: .5em;
+}
+.form_cta{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    background-color: #b63b48;
+    color: #fff;
+    border: 2px outset #ce5965;
+    font-weight: 400;
+    padding: 0.7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+}

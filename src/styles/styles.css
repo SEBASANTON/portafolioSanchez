@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    
+}
+button{
+    cursor: pointer
+}
+
+body{
+    color: white;
+    background: linear-gradient(178.92deg, #1f3654 0.92%, #131f2e  47.96%, #061221 99.08%);
+    background-attachment:fixed;
+    overflow: scroll;
+}
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+/* body{
+    background: linear-gradient(178.92deg, #1f3654 0.92%, #131f2e  47.96%, #061221 99.08%);
+
+} */
+    /* background-color: rgb(4, 2, 27); */
+/*     background-image: url('../assets/imagenMovimiento.gif');
+ */    /* background-attachment: fixed;
+    overflow: scroll; */
+

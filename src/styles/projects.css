@@ -1,0 +1,53 @@
+#projects>h2{
+    text-align: left;
+    font-size: 30px;
+    margin-left: 8vw ;
+
+}
+
+.container-carrusel{
+    padding: 0.5rem;
+    max-width: 85vw;
+    margin: 1rem auto;
+    background-color: rgba(196, 194, 194, 0.041);
+    border-radius: 10px;
+}
+
+.carrusel{
+    position: relative;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    width: 80vw;
+    height: 75vw;
+    align-items: center;
+    margin: auto;
+    padding: 0 0.5rem;
+}
+.carrusel>a{
+    text-decoration: none;
+    color: white;
+}
+
+.carrusel>a>h2{
+    margin-top: 0.4rem;
+}
+
+.carrusel>a>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.active{
+    opacity: 0;
+}
+
+.container-carrusel>button{
+    font-size: 20px;
+    width: 40px;
+    color: rgb(250, 250, 250);
+    background-color: #b63b48;
+    margin: 0.8rem 2vw;
+    margin-top: 2.7rem;
+    border: transparent;
+    border-radius: 5px;
+}
