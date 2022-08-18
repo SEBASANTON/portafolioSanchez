@@ -7,12 +7,14 @@ import Abilities from './components/Abilities';
 import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
 import Footer from './components/Footer';
+import Presentation from './components/Presentation';
 
 function App() {
     return (
         <div className="App">
+            <Presentation/>
             <Navbar />
-            <FrontPage />
+            
             <AboutMe />
             <Abilities />
             <Projects />

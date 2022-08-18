@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import '../styles/navbar.css';
-import logo2 from '../assets/Logo2.jpg';
+import logo2 from '../assets/logoSA3.png';
 
 const Navbar = () => {
     const [isMenu, setIsMenu] = useState(false);
@@ -10,7 +10,9 @@ const Navbar = () => {
         <div>
             <div className="responsive-menu">
                 <div className="title-responsive">
-                    <img src={logo2} alt="" />
+                    <a href="#presentation" onClick={() => setIsMenu(false)}>
+                        <img src={logo2} alt="" />
+                    </a>
                 </div>
                 <div className="icon-responsive">
                     <button onClick={() => setIsMenu(!isMenu)}>
@@ -27,7 +29,10 @@ const Navbar = () => {
                 </div>
                 <ul className="list-menu">
                     <li>
-                        <a href="#frontPage" onClick={() => setIsMenu(false)}>
+                        <a
+                            href="#presentation"
+                            onClick={() => setIsMenu(false)}
+                        >
                             HOME
                         </a>
                     </li>

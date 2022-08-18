@@ -3,6 +3,7 @@
     display: grid;
     gap: 1em;
     grid-auto-columns: 100% ;
+    margin: auto;
 }
 
 
@@ -12,7 +13,7 @@
     padding: .8em 1em ;
     outline: none;
     border-radius: 3px;
-    background-color: #a4a2af;
+    background-color: #acacac;
     border: 1px solid #e8e8e9be;
 }
 
@@ -32,11 +33,24 @@
 .form_cta{
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    background-color: #b63b48;
-    color: #fff;
-    border: 2px outset #ce5965;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);    color: white;
     font-weight: 400;
     padding: 0.7em 0;
+    border: none;
     border-radius: .2em;
     cursor: pointer;
+    transition: 0.7s;  
+}
+@media(min-width:750px){
+    .form-container{
+        width: 60%;
+        display: grid;
+        gap: 1em;
+        grid-auto-columns: 100% ;
+        margin-left: auto;
+    }
+    .form_cta:hover{
+        background:#000000 ;
+        border: 1px solid white;    }
+    
 }

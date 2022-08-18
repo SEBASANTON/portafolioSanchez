@@ -8,13 +8,38 @@
 button{
     cursor: pointer
 }
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    -ms-text-size-adjust: 100%;
 
+    -webkit-text-size-adjust: 100%;
+
+}
+
+
+/* background-blend-mode: normal, lighten, soft-light; */
+/*     background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);*/
 body{
     color: white;
-    background: linear-gradient(178.92deg, #1f3654 0.92%, #131f2e  47.96%, #061221 99.08%);
+    background: url('../assets/imagenMovimientoFondo3.gif');
+    background-size: contain;
     background-attachment:fixed;
-    overflow: scroll;
+    overflow-x: hidden;
+    -ms-text-size-adjust: 100%;
+
+    -webkit-text-size-adjust: 100%;
 }
+
+ 
+[data-aos]{
+    visibility: hidden;
+}
+
+[data-aos].aos-animate{
+    visibility: visible;
+}
+
 /* ::-webkit-scrollbar {
     display: none;
 } */

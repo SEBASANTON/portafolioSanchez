@@ -4,19 +4,19 @@ import '../styles/abilities.css';
 const Abilities = () => {
     return (
         <section id="abilities">
-            <h2>Mis Habilidades</h2>
+            <h2 data-aos="fade-left" data-aos-duration="1500">
+                Mis Habilidades
+            </h2>
             <div className="skills-responsive">
-                <article className="skills-soft">
+                <article
+                    className="skills-soft"
+                    data-aos="fade-right"
+                    data-aos-duration="1500"
+                >
                     <h2>Habilidades blandas</h2>
                     <p>Aprendizaje rápido</p>
                     <div className="progress-bar">
                         <div className="ninety">
-                            <div className="eighty-animate"></div>
-                        </div>
-                    </div>
-                    <p>Trabajo en equipo</p>
-                    <div className="progress-bar">
-                        <div className="eighty-five">
                             <div className="eighty-animate"></div>
                         </div>
                     </div>
@@ -26,8 +26,18 @@ const Abilities = () => {
                             <div className="eighty-animate"></div>
                         </div>
                     </div>
+                    <p>Trabajo en equipo</p>
+                    <div className="progress-bar">
+                        <div className="eighty-five">
+                            <div className="eighty-animate"></div>
+                        </div>
+                    </div>
                 </article>
-                <article className="skills-professional">
+                <article
+                    className="skills-professional"
+                    data-aos="fade-left"
+                    data-aos-duration="1500"
+                >
                     <h2>Habilidades Profesionales</h2>
                     <article className="lenguages1">
                         <div className="html">

@@ -1,16 +1,27 @@
 import React from 'react';
 import '../styles/aboutMe.css';
 import imagenPerfil4 from '../assets/FotoBlancoYNegroSinFondo.png';
+import CV from '../assets/CVSanchez.pdf';
 
 const AboutMe = () => {
     return (
         <div id="aboutMe">
-            <h2>Acerca de mí</h2>
-            <div className="aboutMe-info">
-                <div className="img-aboutMe">
+            <h2 data-aos="fade-left" data-aos-duration="1500">
+                Acerca de mí
+            </h2>
+            <div className="aboutMe-info" data-aos="zoom-in-right" data-aos-duration="1500">
+                <div
+                    className="img-aboutMe"
+                    data-aos="zoom-in"
+                    data-aos-duration="2000"
+                >
                     <img src={imagenPerfil4} alt="" />
                 </div>
-                <div className="txt-aboutMe">
+                <div
+                    className="txt-aboutMe"
+                    data-aos="zoom-in"
+                    data-aos-duration="2000"
+                >
                     <p>
                         Soy <span>Antonio Sanchez</span>, en el año 2018 a la
                         edad de 16 años hice un curso de informática donde
@@ -42,14 +53,28 @@ const AboutMe = () => {
                             20 años
                         </li>
                         <li>
-                            <i className="fa-solid fa-phone"></i>
-                            +51 926 613 609
+                            <a href="https://wa.me/51926613609">
+                                <i className="fa-solid fa-phone"></i>
+                                +51 926 613 609
+                            </a>
                         </li>
                         <li>
-                            <i className="fa-solid fa-envelope"></i>
-                            sebasanton07@gmail.com
+                            <a href="mailto:sebasanton07@gmail.com">
+                                <i className="fa-solid fa-envelope"></i>
+                                sebasanton07@gmail.com
+                            </a>
                         </li>
                     </ul>
+                    <button>
+                        <a
+                            download="CV-AntonioSanchez"
+                            href={CV}
+                            className="DownloadCV"
+                        >
+                            <i className="fa-solid fa-download"></i>
+                            Descarga mi CV
+                        </a>
+                    </button>
                 </div>
             </div>
         </div>

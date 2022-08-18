@@ -24,6 +24,12 @@ const FrontPage = () => {
             </div>
 
             <div className="responsive-portada">
+                <div className="name-portada">
+                    <h1>ANTONIO SANCHEZ</h1>
+                    <div id="raya1"></div>
+                    <div id="raya2"></div>
+                    <p>Full stack web developer</p>
+                </div>
                 <div className="lenguajes">
                     <span className="logo1">
                         <i className="fa-brands fa-html5"></i>
@@ -45,12 +51,6 @@ const FrontPage = () => {
                     <span className="logo6">
                         <i className="fa-brands fa-git-alt"></i>
                     </span>
-                </div>
-                <div className="name-portada">
-                    <h1>ANTONIO SANCHEZ</h1>
-                    <div id="raya1"></div>
-                    <div id="raya2"></div>
-                    <p>Full stack web developer</p>
                 </div>
                 {/* <div className='contactame'>
                     <img src={scrollDown} alt="" />

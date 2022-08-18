@@ -1,16 +1,26 @@
+#abilities{
+    padding-top: 2rem;
+
+}
 #abilities>h2{
     text-align: left;
     margin-left: 8vw ;
     margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
     font-size: 30px;
+    text-shadow: 0px 2px 10px rgba(7, 7, 7, 0.877);
+    position: relative;
 }
 
 .skills-soft{
     padding-top: 0.5rem;
     padding-bottom: 1rem;
-    max-width: 85vw;
+    max-width: 90vw;
     margin: 1rem auto;
-    background-color: rgba(196, 194, 194, 0.041);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.171);
+    backdrop-filter: blur(10px);
+    text-shadow: 0px 2px 10px rgba(7, 7, 7, 0.877);
     border-radius: 10px;
 }
 .skills-soft>h2{
@@ -36,7 +46,7 @@
 .progress-bar>.eighty{
     background: linear-gradient(to bottom, #65949c, #165a3eea);
     height: 15px;
-    width: 80%;
+    width: 89%;
     border-radius: 20px;
     text-align: right;
 }
@@ -59,24 +69,26 @@
     background: linear-gradient(to bottom, #65949c, #165a3eea);
 
     height: 15px;
-    width: 90%;
+    width: 95%;
     border-radius: 20px;
     text-align: right;
 }
 .progress-bar>.eighty-five{
     background: linear-gradient(to bottom, #65949c, #165a3eea);
     height: 15px;
-    width: 85%;
+    width: 92%;
     border-radius: 20px;
     text-align: right;
 }
 
 .skills-professional{
     padding: 1rem;
-    max-width: 85vw;
+    max-width: 90vw;
     margin: 1rem auto;
-    background-color: rgba(196, 194, 194, 0.041);
     border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.171);
+    backdrop-filter: blur(10px);
+    text-shadow: 0px 2px 10px rgba(7, 7, 7, 0.877);
 }
 
 .lenguages1{
@@ -101,28 +113,96 @@
 
 .html>i{
     color: rgb(231, 101, 25);
+    transition: 0.5s;
     font-size: 48px;
 }
 .css>i{
     color: rgb(21, 144, 226);
+    transition: 0.5s;
     font-size: 48px;
 
 }
 .js>i{
     color: rgb(239, 243, 0);
     font-size: 48px;
+    transition: 0.5s;
 }
 .react>i{
     color: rgb(101, 204, 252);
     font-size: 48px;
+    transition: 0.5s;
 }
 .node>i{
     color: rgb(101, 173, 67);
     font-size: 48px;
+    transition: 0.5s;
 }
 .git>i{
     color: rgb(218, 65, 5);
     font-size: 48px;
+    transition: 0.5s;
 }
 
+@media(min-width:800px){
+    .skills-responsive{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 85vw;
+        margin: auto;
+        padding: 0;
+    }
+    
+    .skills-soft{
+        padding:0.5rem 0;
+        width: 35vw;
+        margin: 1rem 0;
 
+        border-radius: 10px;
+    }
+    .skills-professional{
+        padding: 1rem 1rem;
+        width: 48vw;
+        margin: 1rem 0rem;
+        background-color: rgba(196, 194, 194, 0.041);
+        border-radius: 10px;
+        height: 330px;
+    }
+
+    .progress-bar{
+        background-color: blanchedalmond;
+        height: 15px;
+        width: 30vw;
+        margin: 0.5rem auto;
+        margin-bottom: 1rem;
+    }
+    .skills-soft>p{
+        text-align: left;
+        margin-left: 3vw;
+    }
+    .lenguages1>div{
+        margin-top: 2rem ;
+    }
+    .lenguages2>div{
+        margin-top: 2rem ;
+    }
+    .lenguages1{
+        height: 140px;
+        margin: 0 ;
+    }
+    .lenguages2{
+        height: 140px;
+    }
+    .lenguages1>div>i:hover{
+        font-size: 60px ;
+
+    }
+    .lenguages2>div>i:hover{
+        font-size: 60px ;
+
+    }
+    .skills-soft>h2{
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+    }
+}
