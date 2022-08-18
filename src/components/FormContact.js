@@ -7,7 +7,7 @@ const FormContact = () => {
             data-aos="zoom-in"
             data-aos-duration="2000"
             name="formulario-contacto"
-            netlify
+            data-netlify="true"
         >
             <input type="text" className="form_input" placeholder=" Nombre" />
             <input type="email" className="form_input" placeholder=" Email" />
