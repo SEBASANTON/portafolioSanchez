@@ -8,7 +8,12 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className="responsive-menu">
+            <div
+                className="responsive-menu"
+                data-aos="fade-down"
+                data-aos-duration="1500"
+                data-aos-delay="3000"
+            >
                 <div className="title-responsive">
                     <a href="#presentation" onClick={() => setIsMenu(false)}>
                         <img src={logo2} alt="" />
@@ -21,7 +26,9 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className={`menu ${isMenu ? 'input' : ''} `}>
+            <div
+                className={`menu ${isMenu ? 'input' : ''} `}
+            >
                 <div className="exit-icon">
                     <button onClick={() => setIsMenu(false)}>
                         <i className="fa-solid fa-xmark"></i>

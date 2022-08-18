@@ -9,7 +9,7 @@ const ContactMe = () => {
             <h2 data-aos="fade-left" data-aos-duration="1500">
                 Contact Me
             </h2>
-            <form className="form" data-aos="zoom-in" data-aos-duration="1500">
+            <div className="form" data-aos="zoom-in" data-aos-duration="1500">
                 <FormContact />
                 <ul
                     className="social-networks"
@@ -38,7 +38,7 @@ const ContactMe = () => {
                         </a>
                     </li>
                 </ul>
-            </form>
+            </div>
         </section>
     );
 };

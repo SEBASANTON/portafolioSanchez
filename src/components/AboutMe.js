@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/aboutMe.css';
-import imagenPerfil4 from '../assets/FotoBlancoYNegroSinFondo.png';
+import imagenPerfil4 from '../assets/FotoPerfilBL3.png';
 import CV from '../assets/CVSanchez.pdf';
 
 const AboutMe = () => {

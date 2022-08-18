@@ -17,8 +17,7 @@
     padding-bottom: 1rem;
     max-width: 90vw;
     margin: 1rem auto;
-    backdrop-filter: blur(10px);
-    border: 2px solid rgba(255, 255, 255, 0.171);
+    border: 2px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
     text-shadow: 0px 2px 10px rgba(7, 7, 7, 0.877);
     border-radius: 10px;
@@ -86,9 +85,9 @@
     max-width: 90vw;
     margin: 1rem auto;
     border-radius: 10px;
-    border: 2px solid rgba(255, 255, 255, 0.171);
-    backdrop-filter: blur(10px);
     text-shadow: 0px 2px 10px rgba(7, 7, 7, 0.877);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
 }
 
 .lenguages1{
@@ -164,7 +163,6 @@
         padding: 1rem 1rem;
         width: 48vw;
         margin: 1rem 0rem;
-        background-color: rgba(196, 194, 194, 0.041);
         border-radius: 10px;
         height: 330px;
     }

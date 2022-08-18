@@ -41,7 +41,7 @@
     color: white;
     height: 42px;
     padding: 0.2rem 1.5rem;
-    
+    transition: 0.7s;
 }
 .titleName>span{
     font-size: 31px;
@@ -108,6 +108,15 @@
     border: transparent;
     color: white;
 }
+.icon-presentation{
+    display: none;
+    
+}
+
+.titleName>button:hover{
+    background:#000000 ;
+    border: 1px solid white; 
+}
 
 @media (min-width:700px){
     #presentation>img{
@@ -127,7 +136,7 @@
         position: absolute;
         bottom: 12rem;
         left: 10vw;
-        width: 55vw;
+        width: 50vw;
     }
     #line2{
         position: absolute;
@@ -172,6 +181,37 @@
         left:12vw
     };
 }
+@media(min-width:980px){
+    .icon-presentation{
+        position: absolute;
+        top: 130px;
+        right: 60px;
+        display: grid;
+        gap: 3rem;
+        grid-auto-columns: 100% ;
+        margin: auto;
+        font-size: 35px;
+        width: 5rem;
+        transition: 1s;
+    }
+    .icon-presentation>a{
+        color: white;
+    }
+    .icon-presentation>a>i{
+        transition: 0.5s;
+    }
+    .icon-presentation>a>i:hover{
+        color: #5da37a;
+        font-size: 40px;
+    }
+    #presentation>img{
+        width: 380px;
+        position: absolute;
+        top: 35px;
+        right: 170px;
+        margin: 0;
+    }
+}
 @media(min-width:1020px){
     .titleName-p{
         position: absolute;
@@ -181,4 +221,59 @@
         max-width: 350px;
 
     }
+}
+@media(min-width:1243px){
+    #presentation>img{
+        width: 380px;
+        position: absolute;
+        margin: 0;
+        top: 35px;
+        right: 24vw;
+    }
+    .icon-presentation{
+        top: 160px;
+        right: 15vw;
+    }
+    .titleName-p{
+        left: 10vw;
+    };   
+}
+@media (min-width:1241px){
+    .titleName>span{
+        bottom: 5rem;
+        left: 15vw;
+        font-size: 55px;
+    }
+    #line1{
+        position: absolute;
+        bottom: 9.5rem;
+        left: 15vw;
+        width: 35vw;
+    }
+    #line2{
+        position: absolute;
+        bottom:3.5rem;
+        left: 45vw;
+    }
+    .titleName>button{
+        left: 15vw;
+        bottom: 36vh;
+    }; 
+}
+@media(min-width:1400px){
+    #presentation>img{
+        width: 400px;
+        position: absolute;
+        margin: 0;
+        top: 35px;
+        right: 24vw;
+    }
+    .titleName-p{
+        position: absolute;
+        left: 15vw;
+    }
+    .titleName>button{
+        left: 20vw;
+        bottom: 36vh;
+    }; 
 }
