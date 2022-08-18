@@ -1,5 +1,4 @@
 import './App.css';
-import FrontPage from './components/FrontPage';
 import AboutMe from './components/AboutMe';
 import './styles/styles.css';
 import Navbar from './components/Navbar';
@@ -14,7 +13,6 @@ function App() {
         <div className="App">
             <Presentation/>
             <Navbar />
-            
             <AboutMe />
             <Abilities />
             <Projects />
