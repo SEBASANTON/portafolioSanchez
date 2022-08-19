@@ -11,7 +11,8 @@ import Presentation from './components/Presentation';
 function App() {
     return (
         <div className="App">
-            <Presentation/>
+            
+            <Presentation />
             <Navbar />
             <AboutMe />
             <Abilities />

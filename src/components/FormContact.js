@@ -6,12 +6,24 @@ const FormContact = () => {
             className="form-container"
             data-aos="zoom-in"
             data-aos-duration="2000"
-            name="formulario-contacto"
-            data-netlify="true"
+            name="contact"
+            method="post"
         >
-            <input type="text" className="form_input" placeholder=" Nombre" />
-            <input type="email" className="form_input" placeholder=" Email" />
+            <input type="hidden" name="form-name" value="contact" />
+            <input
+                type="text"
+                name="name"
+                className="form_input"
+                placeholder=" Nombre"
+            />
+            <input
+                type="email"
+                name="email"
+                className="form_input"
+                placeholder=" Email"
+            />
             <textarea
+                name="message"
                 className="form_input form_input--message"
                 rows="5"
                 placeholder=" Mensaje"

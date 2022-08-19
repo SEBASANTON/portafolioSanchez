@@ -35,8 +35,6 @@ const Projects = () => {
         </a>,
     ];
 
-    console.log(mockImagenes[2]);
-
     const [imagenActual, setImagenActual] = useState(0);
 
     const cantidad = mockImagenes?.length;
